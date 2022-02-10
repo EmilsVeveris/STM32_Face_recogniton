@@ -1,0 +1,35 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (9-2020-q2-update)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../Core/Src/Lcd/ili9325.c \
+../Core/Src/Lcd/lcd_io_fsmc8.c \
+../Core/Src/Lcd/stm32_adafruit_lcd.c \
+../Core/Src/Lcd/stm32_adafruit_ts.c 
+
+OBJS += \
+./Core/Src/Lcd/ili9325.o \
+./Core/Src/Lcd/lcd_io_fsmc8.o \
+./Core/Src/Lcd/stm32_adafruit_lcd.o \
+./Core/Src/Lcd/stm32_adafruit_ts.o 
+
+C_DEPS += \
+./Core/Src/Lcd/ili9325.d \
+./Core/Src/Lcd/lcd_io_fsmc8.d \
+./Core/Src/Lcd/stm32_adafruit_lcd.d \
+./Core/Src/Lcd/stm32_adafruit_ts.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Core/Src/Lcd/ili9325.o: ../Core/Src/Lcd/ili9325.c Core/Src/Lcd/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/emils/OneDrive/Desktop/Augstskola/3.kurss/2.Semestris/Iegultas_operetajsistemas1/Kursa_Darbs_V1.0/Core/camera" -I"C:/Users/emils/OneDrive/Desktop/Augstskola/3.kurss/2.Semestris/Iegultas_operetajsistemas1/Kursa_Darbs_V1.0/Core/Src/Lcd" -I"C:/Users/emils/OneDrive/Desktop/Augstskola/3.kurss/2.Semestris/Iegultas_operetajsistemas1/Kursa_Darbs_V1.0/Core/Src/App" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Lcd/ili9325.d" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+Core/Src/Lcd/lcd_io_fsmc8.o: ../Core/Src/Lcd/lcd_io_fsmc8.c Core/Src/Lcd/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/emils/OneDrive/Desktop/Augstskola/3.kurss/2.Semestris/Iegultas_operetajsistemas1/Kursa_Darbs_V1.0/Core/camera" -I"C:/Users/emils/OneDrive/Desktop/Augstskola/3.kurss/2.Semestris/Iegultas_operetajsistemas1/Kursa_Darbs_V1.0/Core/Src/Lcd" -I"C:/Users/emils/OneDrive/Desktop/Augstskola/3.kurss/2.Semestris/Iegultas_operetajsistemas1/Kursa_Darbs_V1.0/Core/Src/App" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Lcd/lcd_io_fsmc8.d" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+Core/Src/Lcd/stm32_adafruit_lcd.o: ../Core/Src/Lcd/stm32_adafruit_lcd.c Core/Src/Lcd/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/emils/OneDrive/Desktop/Augstskola/3.kurss/2.Semestris/Iegultas_operetajsistemas1/Kursa_Darbs_V1.0/Core/camera" -I"C:/Users/emils/OneDrive/Desktop/Augstskola/3.kurss/2.Semestris/Iegultas_operetajsistemas1/Kursa_Darbs_V1.0/Core/Src/Lcd" -I"C:/Users/emils/OneDrive/Desktop/Augstskola/3.kurss/2.Semestris/Iegultas_operetajsistemas1/Kursa_Darbs_V1.0/Core/Src/App" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Lcd/stm32_adafruit_lcd.d" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+Core/Src/Lcd/stm32_adafruit_ts.o: ../Core/Src/Lcd/stm32_adafruit_ts.c Core/Src/Lcd/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/emils/OneDrive/Desktop/Augstskola/3.kurss/2.Semestris/Iegultas_operetajsistemas1/Kursa_Darbs_V1.0/Core/camera" -I"C:/Users/emils/OneDrive/Desktop/Augstskola/3.kurss/2.Semestris/Iegultas_operetajsistemas1/Kursa_Darbs_V1.0/Core/Src/Lcd" -I"C:/Users/emils/OneDrive/Desktop/Augstskola/3.kurss/2.Semestris/Iegultas_operetajsistemas1/Kursa_Darbs_V1.0/Core/Src/App" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Lcd/stm32_adafruit_ts.d" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+

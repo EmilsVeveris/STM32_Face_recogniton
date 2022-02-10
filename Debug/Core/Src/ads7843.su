@@ -1,0 +1,6 @@
+ads7843.c:38:10:ADS7843_SendCmd	32	static
+ads7843.c:77:10:ADS7843_IsPressed	8	static
+ads7843.c:86:9:ADS7843_Calibrate	4	static
+ads7843.c:173:6:ADS7843_GetRawPoint	24	static
+ads7843.c:195:6:ADS7843_GetXYCords	24	static
+ads7843.c:248:10:ADS7843_Init	24	static
